@@ -2,56 +2,50 @@
     margin: 0px;
     padding: 0px;
 }
-.contenedor{
-    width: 100%;
-}
+
 /*header*/
 header{
-    background-color: black;
-    display: grid;
-  }
-header div{
     background-image: linear-gradient(to right, white , white, rgb(87, 0, 0));
     width: 100%;
     margin-top: 40px;
-}
+      }
 
 .logo_encabezado{
-    width: 30%;
+height: 15vw;
     }
-
-.fondo__menu{
-    background-color: black;
-    display: flex;
-}
-
+.navbar-light .navbar-nav .nav-link.active{
+    color: rgb(113 35 33);
+    font-size: 1.3rem;
+    }
 nav .lista{
     list-style: none;
-    margin-left: 30px;
     text-align: left;
     font-family: 'Trebuchet MS';
     font-size: 17px;
- 
 }
-.lista li{
-    background-color: white;
-    display: inline-block;
-    border:   solid 2px rgb(87, 0, 0);
-    margin:  3px 0px 3px 0px;
-    padding: 5px 10px 5px 10px;
+a{
+    text-decoration: none;
+    color: black;
 }
 /*cuerpo index*/
 .texto__noticias{
     font-family: 'Segoe UI';
-    font-size: 30px;
+    font-size: 25px;
     color: rgb(87, 0, 0);
     margin: 10px 0px 0px 30px;
-    text-decoration: underline;
+    text-decoration: none;
 }
-.containerFoto{
-    display: flex;
-    justify-content: center;
-   }
+h1{
+    font-size: 20px;
+    color: rgb(87, 0, 0);
+    font-size: 25px;
+}
+h3{
+    font-size: 17px;
+}
+h4{
+  font-size: 15px;
+    }
 
 .imagenes{    
         margin-top: 10px;
@@ -62,18 +56,17 @@ nav .lista{
         grid-column-gap: 30px;    
       }
 .foto{
-        width: 100%;
-       }
-
+    width: 100%;
+}
 /*Contacto*/
 .leyenda__contacto{
     padding-top: 20px
 }
 .formularios{
-    height: 400px;
+    height: 100%;
     display: flex;
     justify-content: center;
-    width: 50%;    
+    width: 100%;    
     }
 .form__container {
     padding: 20px;
@@ -86,54 +79,38 @@ nav .lista{
       }
  .button {
     margin: auto;
-    font-family: 'Segoe UI';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     color: rgb(87, 0, 0);
-    font-size: 15px;
+    font-size: 1.5vw;
    }
 
 /*Nosotros*/
 .nosotros{
      position: relative;
      display: inline-block;
-     text-align: start;
-        }
+          }
     
-    .texto__nosotros{
-        background-color: rgb(255, 255, 255);
-        opacity: 90%;
-        font-family: 'Segoe UI';
-        font-size: 30px;
-        color: rgb(87, 0, 0);
-        position: absolute;
-        top: 10px;
-        left: 10px;
-    }
     .backgroundNosotros{
         width: 100%;
     }
-        
-    .descripcion__nosotros{
+        .descripcion__nosotros{
         background-color: rgb(255, 255, 255);
         opacity: 90%;
         font-family: 'Segoe UI';
         color: rgb(87, 0, 0);
         line-height: 25px;
         position: absolute;
-        top: 50px;
-        left: 10px;
-    }
+        top: 2%;
+        left :10%;
+        right: 10%;
+        }
     /*footer*/
     footer{
         background-color: gray;
         height: 100%;
         width: auto;
         }
-        
-        .grid__footer{
-            display: flex;
-            justify-content: space-around;
-        }
-        
+             
     footer div{
         font-family: 'Segoe UI';
         font-size: 20px;
