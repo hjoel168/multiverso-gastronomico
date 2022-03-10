@@ -1,125 +1,112 @@
 * {
-    margin: 0px;
-    padding: 0px;
-}
+  margin: 0px;
+  padding: 0px; }
 
 /*header*/
-header{
-    background-image: linear-gradient(to right, white , white, rgb(87, 0, 0));
-    width: 100%;
-    margin-top: 40px;
-      }
+header {
+  background-image: linear-gradient(to right, white, white, #570000);
+  width: 100%;
+  margin-top: 40px; }
 
-.logo_encabezado{
-height: 15vw;
-    }
-.navbar-light .navbar-nav .nav-link.active{
-    color: rgb(113 35 33);
-    font-size: 1.3rem;
-    }
-nav .lista{
+.logo_encabezado {
+  height: 15vw; }
+
+.navbar-light .navbar-nav .nav-link.active {
+  color: #570000;
+  font-size: 1.3rem; }
+  .navbar-light .navbar-nav .nav-link.active .lista {
     list-style: none;
     text-align: left;
     font-family: 'Trebuchet MS';
-    font-size: 17px;
-}
-a{
-    text-decoration: none;
-    color: black;
-}
+    font-size: 17px; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
 /*cuerpo index*/
-.texto__noticias{
-    font-family: 'Segoe UI';
-    font-size: 25px;
-    color: rgb(87, 0, 0);
-    margin: 10px 0px 0px 30px;
-    text-decoration: none;
-}
-h1{
-    font-size: 20px;
-    color: rgb(87, 0, 0);
-    font-size: 25px;
-}
-h2{
-    opacity: 100%;
-    line-height: 20px;
-}
-h3{
-    font-size: 17px;
-}
-h4{
+.texto__noticias {
+  font-family: 'Segoe UI';
+  font-size: 25px;
+  color: #570000;
+  margin: 10px 0px 0px 30px;
+  text-decoration: none; }
+
+h1 {
+  font-size: 20px;
+  color: #570000;
+  font-size: 25px; }
+
+h2 {
+  opacity: 100%;
+  line-height: 20px; }
+
+h3 {
+  font-size: 17px; }
+
+h4 {
   font-size: 20px;
   opacity: 100%;
   line-height: 25px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    }
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
-.imagenes{    
-        margin-top: 10px;
-        margin-bottom: 10px;
-        display: grid;
-        grid-template-columns: repeat(4, 300px);
-        grid-template-rows: repeat(2, 200px);
-        grid-column-gap: 30px;    
-      }
-.foto{
-    width: 100%;
-    transition: width 1s ;
-}
-.foto:hover{
-width: 105%; 
-}
+.imagenes {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: repeat(4, 300px);
+  grid-template-rows: repeat(2, 200px);
+  grid-column-gap: 30px; }
+
+.foto {
+  width: 100%;
+  transition: width 1s; }
+  .foto:hover {
+    width: 105%; }
 
 /*Contacto*/
-.leyenda__contacto{
-    padding-top: 20px
-}
-.formularios{
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    width: 100%;    
-    }
+.leyenda__contacto {
+  padding-top: 20px; }
+
+.formularios {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%; }
+
 .form__container {
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    color: white;
-    font-weight: bold;
-    background-color: rgb(87, 0, 0);
-      }
- .button {
-    margin: auto;
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    color: rgb(87, 0, 0);
-    font-size: 1.5vw;
-   }
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  color: white;
+  font-weight: bold;
+  background-color: #570000; }
+
+.button {
+  margin: auto;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #570000;
+  font-size: 1.5vw; }
 
 /*Nosotros*/
-.nosotros{
-    background-image: url('../img/Fondo\ nosotros.jpg');
-     }
-  
-     .descripcion__nosotros{
-        background-color: white;
-        opacity: 80%;
-        color: rgb(87, 0, 0);
-        padding-top: 20px;
-        padding-left: 5%;
-        padding-right: 10%;
-        }
-     
-    /*footer*/
-    footer{
-        background-color: gray;
-        height: 100%;
-        width: auto;
-        }
-             
-    footer div{
-        font-family: 'Segoe UI';
-        font-size: 20px;
-        line-height: 30px;
-    }
+.nosotros {
+  background-image: url("../img/Fondo nosotros.jpg"); }
 
+.descripcion__nosotros {
+  background-color: white;
+  opacity: 80%;
+  color: #570000;
+  padding-top: 20px;
+  padding-left: 5%;
+  padding-right: 10%; }
+
+/*footer*/
+footer {
+  background-color: gray;
+  height: 100%;
+  width: auto; }
+  footer div {
+    font-family: 'Segoe UI';
+    font-size: 20px;
+    line-height: 30px; }
